@@ -1,15 +1,15 @@
 [
   {
+    "listing": "/reading-notes/index.html",
+    "items": [
+      "/reading-notes/demopaper1.html"
+    ]
+  },
+  {
     "listing": "/meetings.html",
     "items": [
       "/projects/project-1/meeting-notes/meeting1.html",
       "/meeting-notes/meeting-1.html"
-    ]
-  },
-  {
-    "listing": "/reading-notes/index.html",
-    "items": [
-      "/reading-notes/demopaper1.html"
     ]
   },
   {

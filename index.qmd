@@ -43,7 +43,7 @@ If you choose to go this route, you will have to connect the repository to Git e
 
 ## Installing the `quartoutils` package
 
-To facilitate use of this notebook template, I've written a small `R` package that contains utility functions, e.g. to create new weekly note documents. ***Note*** that as of March 2025, this package is very much under development -- the functions have been tested in a relatively narrow range of use cases, and are not super well documented. This will change as the package matures. (In fact, you can help it grow by sharing issues or suggesting and/or implementing improvements!). 
+To facilitate use of this notebook template, I've written a small `R` package that contains utility functions, e.g. to create new weekly note documents. ***Note*** that as of October 2025, this package is very much under development -- the functions have been tested in a relatively narrow range of use cases, and are not super well documented. This will change as the package matures. (In fact, you can help it grow by sharing issues or suggesting and/or implementing improvements!). 
 
 You can install this package from `gitlab` using the following commands:
 
