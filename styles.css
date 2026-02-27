@@ -1,0 +1,978 @@
+/* Custom styles for the website - Professional Design */
+
+/* ============================================
+   Color Palette — Deep Ocean
+   ============================================ */
+:root {
+  /* Primary brand colors */
+  --primary-color: #0E2A3A;      /* deep ocean blue */
+  --primary-dark:  #0A1F2B;      /* darker navy */
+  --primary-light: #2F4A5A;      /* slate blue */
+
+  --secondary-color: #4F6D7A;   /* steel blue */
+  --accent-color:    #7FA6B0;   /* soft sea-glass blue */
+
+  /* Backgrounds */
+  --bg-light:          #FAFBFC; /* paper white */
+  --bg-gradient-start:#E6ECEF; /* pale blue-gray */
+  --bg-gradient-end:  #DCE8EC; /* subtle ocean mist */
+
+  /* Text */
+  --text-dark:   #0F1418;  /* near-black */
+  --text-medium: #1F2933;  /* charcoal */
+  --text-light:  #4F6D7A;  /* muted steel */
+
+  /* Borders & UI */
+  --border-color: #C9D6DC; /* soft blue-gray */
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(15, 20, 24, 0.04);
+  --shadow-md: 0 6px 14px rgba(15, 20, 24, 0.08);
+  --shadow-lg: 0 14px 30px rgba(15, 20, 24, 0.12);
+}
+
+
+/* ============================================
+   Global Styles
+   ============================================ */
+body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+  background-attachment: fixed;
+} 
+
+/* ============================================
+   Navigation Bar
+   ============================================ */
+.navbar {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+  box-shadow: var(--shadow-md);
+  padding: 1rem 0;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: white !important;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.25rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white !important;
+}
+
+/* ============================================
+   Main Content Area
+   ============================================ */
+#quarto-content {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  padding: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ============================================
+   Headers
+   ============================================ */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  color: var(--primary-dark);
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+/* ============================================
+   Hero Section (for homepage)
+   ============================================ */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.hero-section h1 {
+  color: white;
+  border-bottom: none;
+  background: none;
+  -webkit-text-fill-color: white;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+ 
+.hero-section p {
+  font-size: 1.25rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   Fix hero image layout
+   ============================================ */
+
+.hero-image {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Remove vertical margins that force stacking */
+.hero-image img {
+  margin: 0 !important;
+}
+
+/* Make sure Quarto wrappers don’t break flex */
+.hero-image > p,
+.hero-image > figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center;
+}
+
+/* Force children to be flex items */
+.hero-image > p,
+.hero-image > figure {
+  flex: 0 0 auto;
+}
+
+/* Headshot */
+.hero-image .headshot {
+  width: 160px;
+  max-width: 160px;
+  border-radius: 999px;
+}
+
+/* Field image larger */
+.hero-image .fieldshot {
+  max-width: 420px;
+  width: 100%;
+}
+
+/* ============================================
+   Make hero images equal height + spaced
+   ============================================ */
+
+.hero-image {
+  gap: 2.5rem;   /* more space between images */
+}
+
+/* Force both images to the same height */
+.hero-image img {
+  height: 280px;        /* adjust to taste */
+  width: auto;
+  object-fit: cover;
+}
+
+/* Keep headshot round but now same height */
+.hero-image .headshot {
+  width: 280px;        /* match height so circle stays round */
+  height: 280px;
+  max-width: none;
+  border-radius: 50%;
+}
+
+/* Field photo fills its rectangle */
+.hero-image .fieldshot {
+  width: 420px;        /* wide landscape feel */
+  max-width: none;
+  border-radius: 16px;
+}
+
+/* ============================================
+   Hero images: same height, no headshot cropping
+   ============================================ */
+
+.hero-image {
+  gap: 3rem;            /* more space between images */
+  align-items: center;
+}
+
+/* Set a shared height */
+.hero-image .headshot,
+.hero-image .fieldshot {
+  height: 280px;        /* adjust this number */
+  margin: 0 !important; /* keep your no-stack fix */
+  display: block;
+}
+
+/* Headshot: NEVER crop */
+.hero-image .headshot {
+  width: 280px;         /* keep it square so circle stays true */
+  max-width: none;
+  object-fit: contain;  /* show whole headshot */
+  background: white;    /* prevents transparent corners looking odd */
+  padding: 6px;         /* small breathing room */
+  border-radius: 50%;
+}
+
+/* Fieldshot: crop is OK for landscape framing */
+.hero-image .fieldshot {
+  width: 460px;         /* give it a nice wide presence */
+  max-width: none;
+  object-fit: cover;    /* fill the rectangle */
+  border-radius: 16px;
+}
+
+/* Research page hero images: don't overlap TOC */
+.research-hero {
+  max-width: 100%;
+  flex-wrap: wrap;     /* allow wrap instead of overflow */
+  gap: 1.5rem;
+}
+
+.research-hero .fieldshot {
+  height: 290px;       /* smaller so it fits next to TOC */
+  width: auto;
+  max-width: 400px;    /* prevents pushing into sidebar */
+  object-fit: cover;
+}
+
+/* ============================================
+   Cards and Sections
+   ============================================ */
+.card, .content-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.card:hover, .content-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.section-divider {
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+  border: none;
+  margin: 2.5rem 0;
+  border-radius: 2px;
+}
+
+/* ============================================
+   Links and Buttons
+   ============================================ */
+
+/* Body links */
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-thickness 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-light);
+  text-decoration-thickness: 3px;
+}
+
+/* Navigation links stay clean */
+.navbar a,
+.navbar a:hover {
+  text-decoration: none;
+}
+
+
+/* ============================================
+   Lists
+   ============================================ */
+ul, ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+ul li::marker {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Quick links special styling */
+.quick-links li {
+  background-color: var(--bg-light);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-color);
+  transition: all 0.2s ease;
+  list-style: none;
+}
+
+.quick-links li:hover {
+  background-color: var(--bg-gradient-start);
+  transform: translateX(5px);
+  box-shadow: var(--shadow-sm);
+}
+
+.quick-links li::before {
+  content: "→";
+  color: var(--accent-color);
+  font-weight: bold;
+  margin-right: 0.75rem;
+}
+
+/* ============================================
+   Code Blocks
+   ============================================ */
+pre {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+code {
+  background-color: var(--bg-light);
+  color: var(--primary-dark);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* ============================================
+   Blockquotes
+   ============================================ */
+blockquote {
+  background-color: var(--bg-light);
+  border-left: 5px solid var(--accent-color);
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  color: var(--text-medium);
+  font-style: italic;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   Tables
+   ============================================ */
+table {
+  margin: 2rem 0;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: var(--shadow-sm);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: white;
+}
+
+thead th {
+  padding: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: var(--bg-light);
+}
+
+tbody td {
+  padding: 0.875rem 1rem;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* ============================================
+   Images
+   ============================================ */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ============================================
+   Lab Notebook Listing
+   ============================================ */
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+.quarto-listing-category {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.quarto-listing-category:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.listing-item {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent-color);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.listing-item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateX(5px);
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.nav-footer {
+  background: linear-gradient(135deg, var(--text-dark) 0%, var(--text-medium) 100%);
+  color: white;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 3px solid var(--accent-color);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.nav-footer a {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.2s ease;
+}
+
+.nav-footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* ============================================
+   Task Lists
+   ============================================ */
+.task-list-item {
+  list-style-type: none;
+  background-color: var(--bg-light);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.task-list-item:hover {
+  background-color: var(--bg-gradient-start);
+}
+
+.task-list-item input[type="checkbox"] {
+  margin-right: 0.75rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+/* ============================================
+   Table of Contents
+   ============================================ */
+#quarto-margin-sidebar .toc-actions,
+#quarto-margin-sidebar nav[role="navigation"] {
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+#TOC a {
+  color: var(--text-medium);
+  transition: all 0.2s ease;
+}
+
+#TOC a:hover {
+  color: var(--primary-color);
+  padding-left: 0.5rem;
+}
+
+#TOC .active {
+  color: var(--primary-color);
+  font-weight: 600;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 0.5rem;
+}
+
+/* ============================================
+   Search
+   ============================================ */
+#quarto-search {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#quarto-search:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+@media (max-width: 768px) {
+  #quarto-content {
+    padding: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.25rem;
+  }
+  
+  .hero-section {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#quarto-content > * {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.highlight-box {
+  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-light) 100%);
+  border-left: 4px solid var(--accent-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   Restore bold text styling
+   ============================================ */
+
+strong, b {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+/* Optional: subtle emphasis boost */
+strong {
+  letter-spacing: 0.02em;
+}
+
+/* ============================================
+   Research theme badge grid (4 across)
+   ============================================ */
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 2rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.theme-card {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Image badge */
+.theme-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 0 0.75rem 0 !important;
+}
+
+/* Title styling */
+.theme-card h3 {
+  margin: 0.25rem 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Make link titles look like titles (not regular text) */
+.theme-card a {
+  text-decoration: none;
+}
+.theme-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive: 2 across then 1 across */
+@media (max-width: 1100px) {
+  .theme-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 650px) {
+  .theme-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================
+   Mobile fixes (do not affect desktop)
+   ============================================ */
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* iOS Safari performance + layout issues */
+  body {
+    background-attachment: scroll;
+  }
+
+  /* Main content: tighter padding on phones */
+  #quarto-content {
+    padding: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  /* Headings scale down */
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Cards: reduce padding */
+  .card, .content-card {
+    padding: 1.1rem;
+  }
+
+  /* HERO: reduce padding */
+  .hero-section {
+    padding: 1.6rem 1.1rem;
+  }
+  .hero-section h1 {
+    font-size: 2.1rem;
+  }
+
+  /* Images: reduce margins so they don't push content oddly */
+  img {
+    margin: 1rem 0;
+  }
+
+  /* Tables: force horizontal scroll instead of page overflow */
+  .table-responsive,
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Code blocks: slightly tighter on mobile */
+  pre {
+    padding: 1rem;
+  }
+}
+
+/* ============================================
+   Mobile hero images (authoritative)
+   ============================================ */
+@media (max-width: 768px) {
+
+  /* Stack hero images; avoid side-by-side overflow */
+  .hero-image {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+  }
+
+  /* Quarto wrappers (p/figure) should not create weird widths */
+.hero-image > p,
+.hero-image > figure {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+  /* The actual image: never stretch */
+  .hero-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    object-fit: contain !important;   /* default: show whole image */
+  }
+
+  /* Headshot: keep it from getting gigantic, keep circle */
+  .hero-image .headshot {
+    width: min(220px, 80vw) !important;
+    max-width: min(220px, 80vw) !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  /* Field shots: make them "photo-like" */
+  .hero-image .fieldshot {
+    border-radius: 16px !important;
+    object-fit: cover !important;     /* crop is OK for field images */
+    max-height: 55vh !important;      /* prevents taking over screen */
+  }
+}
+
+/* ============================================
+   HARD mobile override: hero images MUST stack
+   Put this at the VERY END of styles.css
+   ============================================ */
+@media (max-width: 768px) {
+
+  /* The container */
+  .hero-image {
+    display: block !important;   /* not flex */
+  }
+
+  /* Anything Quarto may wrap images in */
+  .hero-image > * {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Common Quarto structures (belt + suspenders) */
+  .hero-image p,
+  .hero-image figure,
+  .hero-image .quarto-figure,
+  .hero-image .quarto-figure-center,
+  .hero-image .cell-output-display {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* The images themselves */
+  .hero-image img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  /* Optional: keep headshot nicely sized */
+  .hero-image img.headshot {
+    width: min(220px, 80vw) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* Keep navbar above homepage hero so dropdown is clickable */
+.navbar { position: relative; z-index: 2000; }
+.dropdown-menu { z-index: 3000; }
+
+/* Make navbar logo fill the banner height */
+.navbar-brand img {
+  height: 100%;
+  max-height: 72px;   /* keeps it from overflowing */
+  width: auto;
+}
+
+/* Align brand content vertically */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;   /* space between logo and text */
+}
+
+/* Footer logo */
+.footer-logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Increase navbar height */
+.navbar {
+  min-height: 88px;   /* adjust to taste: 80–96px works well */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 64px;
+  }
+
+  .navbar-brand img {
+    max-height: 44px;
+  }
+}
+
+/* Research page intro: logo left, highlight box right */
+.research-intro{
+  display: grid;
+  grid-template-columns: 140px 1fr;  /* logo column + text column */
+  gap: 1.25rem;
+  align-items: center;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Keep logo a consistent size */
+.research-logo{
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 !important;      /* overrides your global img margins */
+  box-shadow: none !important; /* optional: if you don't want shadow */
+  border-radius: 0 !important; /* optional: if logo shouldn't be rounded */
+}
+
+/* Remove extra margin from highlight box when in grid */
+.research-intro .highlight-box{
+  margin: 0;
+}
+
+@media (max-width: 768px){
+  .research-intro{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .research-logo{
+    width: 160px;
+  }
+}

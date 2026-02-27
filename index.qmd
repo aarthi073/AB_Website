@@ -1,0 +1,51 @@
+---
+title: Aarthi Bharathan
+page-layout: full
+---
+
+::: {.hero-grid}
+
+::: {.hero-text}
+#### Some area of interest
+
+:::
+<!-- 
+::: {.hero-image}
+![](headshots/){alt="" class="headshot"}
+![](headshots/){alt="" class="fieldshot"}
+:::
+-->
+
+:::
+
+<hr class="section-divider">
+
+::: {.content-card}
+## About Me
+
+Your info!
+
+Here you'll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
+:::
+
+<hr class="section-divider">
+
+::: {.content-card}
+## Contact
+
+##### Your Name
+ 
+
+##### Email:  
+[username (at) wm.edu](mailto:username@wm.edu)  
+
+##### Mailing Address:    
+ 
+
+---
+
+### Find me online
+
+- [GitHub](Your Github link)  
+:::
+
