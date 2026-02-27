@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Aarthi Bharathan",
+    "section": "About Me",
+    "text": "About Me\nYour info!\nHere you’ll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Aarthi Bharathan",
+    "section": "Contact",
+    "text": "Contact\n\nYour Name\n\n\nEmail:\nusername (at) wm.edu\n\n\nMailing Address:\n\n\n\nFind me online\n\nGitHub"
+  },
+  {
+    "objectID": "posts/2026-02-18-goals.html",
+    "href": "posts/2026-02-18-goals.html",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Spring 2026 goals\n\n\n\n\n\nMethods\n\n\n\n\n\nMicroscopy\nCulturing\nSequencing: WGS, NGS, etc. are important skill that I want to grow at least by the end of my time in this lab ### Computational Work\nFinish BLAST (Transposase Project)\nStart HMMER (Transposase Project)\nMaybe start machine learning classifier model (Transposase Project)\nCell imaging\nIntroduction to AI models like alphafold, ESM-fold, etc. (how they work)\n\n\n\n\n\nSet up digital notebook\nRead about the relationship between DNA viruses and transposase domestication"
+  },
+  {
+    "objectID": "posts/2026-02-18-goals.html#goals",
+    "href": "posts/2026-02-18-goals.html#goals",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Methods\n\n\n\n\n\nMicroscopy\nCulturing\nSequencing: WGS, NGS, etc. are important skill that I want to grow at least by the end of my time in this lab ### Computational Work\nFinish BLAST (Transposase Project)\nStart HMMER (Transposase Project)\nMaybe start machine learning classifier model (Transposase Project)\nCell imaging\nIntroduction to AI models like alphafold, ESM-fold, etc. (how they work)\n\n\n\n\n\nSet up digital notebook\nRead about the relationship between DNA viruses and transposase domestication"
+  },
+  {
+    "objectID": "notebook.html",
+    "href": "notebook.html",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "Welcome to my open lab notebook!\nThis is a cataloged and searchable collection of research notes and findings."
+  },
+  {
+    "objectID": "notebook.html#how-to-explore-this-notebook",
+    "href": "notebook.html#how-to-explore-this-notebook",
+    "title": "Lab Notebook",
+    "section": "How to Explore This Notebook",
+    "text": "How to Explore This Notebook\n\nSearch: Use the search box to find entries by keywords\nFilter by Category: Click on categories to filter entries by project or topic\nSort: Sort entries by date, title, or other criteria\nBrowse: Scroll through all entries in chronological order"
+  }
+]

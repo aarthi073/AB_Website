@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: Aarthi Bharathan
+  #site-url: YOUR GITHUB
+  #google-analytics: # something to come here
+  #site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  navbar:
+    logo: headshots/logo.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Lab Notebook"
+        href: notebook.qmd
+      - text: "Lab Handbook"
+        href: https://alcalalab.github.io/resources/
+ #    right:
+ #     - icon: github
+ #       href: YOUR GITHUB
+  
+  page-footer:
+    left: |
+      © 2026 Aarthi Bharathan
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute:
+  freeze: auto
+
+
+

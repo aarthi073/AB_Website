@@ -1,0 +1,80 @@
+---
+title: "TEMPLATE - Copy this for new entries"
+author: "Your Name"
+date: "YYYY-MM-DD"
+categories: [project-name, keyword1, keyword2]
+description: "Brief description of this notebook entry"
+draft: true
+---
+
+# Overview
+
+Brief overview of what was done today.
+
+# Goals
+
+- Goal 1
+- Goal 2
+- Goal 3
+
+# Methods
+
+## Setup
+
+Describe your setup or preparation.
+
+## Procedures
+
+Describe the procedures followed.
+
+# Results
+
+## Data
+
+Present your data here. You can include:
+
+- Tables
+- Figures
+- Code outputs
+
+### Example Code Block
+
+```{r}
+# R code example
+# plot(x, y)
+```
+
+```{python}
+# Python code example
+# import pandas as pd
+```
+
+## Observations
+
+Record your observations.
+
+# Analysis
+
+Describe any analysis performed.
+
+# Discussion
+
+Discuss findings, issues encountered, and next steps.
+
+# Next Steps
+
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+# References
+
+List any references or related notebook entries.
+
+---
+
+## Notes
+
+- Additional notes
+- Troubleshooting
+- Ideas for future work
