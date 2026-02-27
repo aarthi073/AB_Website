@@ -1,0 +1,42 @@
+---
+title: "Spring Semester Goals"
+author: "Aarthi Bharathan"
+date: "2026-02-26"
+categories: [goals]
+description: "Spring 2026 Goals"
+image: ""
+---
+
+# Overview
+
+Spring 2026 goals
+
+## Goals
+
+### Writing and Manuscripts 
+
+1. Methods
+
+### Analysis and Benchwork
+
+1. Microscopy
+2. Culturing 
+3. Sequencing: WGS, NGS, etc. are important skill that I want to grow at least by the end of my time in this lab
+### Computational Work
+
+1. Finish BLAST (Transposase Project)
+2. Start HMMER (Transposase Project)
+3. Maybe start machine learning classifier model (Transposase Project)
+4. Cell imaging
+5. Introduction to AI models like alphafold, ESM-fold, etc. (how they work)
+
+### Other
+
+1. Set up digital notebook
+2. Read about the relationship between DNA viruses and transposase domestication 
+
+# Primary Skill Building
+
+- scripting 
+- microscopy
+- machine learning
