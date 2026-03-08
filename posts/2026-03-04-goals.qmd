@@ -1,0 +1,21 @@
+---
+title: "Spring Semester Goals"
+author: "Aarthi Bharathan"
+date: "2026-03-04"
+categories: [Weekly Goals]
+description: "March 1st Week"
+image: ""
+---
+
+# Overview
+
+Week of March 1st
+
+## March 4th Post
+
+### Computational Work
+
+I tried to make bar charts to visually see the distribution of the data and filter those with greater than 70% percent identity, but this was done without compressing the data. 
+
+Additionally, I read about domesticated transposases being an adaptation to evolutionary conflicts (Jangam et al.). The research paper emphasizes how transposable elements (TE) serve as defense mechanisms in both prokaryots and eukaryoets against invasive agents. There was an unconstrained evolution of DNA that led to their domestication. Overtime, these elements were disabled and integrated. Some resulting elements include retrotransposons and DNA transposable elements that use a cut and paste mechanism. Over time, long terminal repeats in retrotransposons led encoded GAG, POL, and ENV proteins. GAG is a capsid protein that encapsulates LTR mRNA into virus particles, ENV proteins are glycoproteins that promote virus particle escape, and POL proteins include integrase, RNAse, and RT. In short, transposases of various classes have been domesticated as an evolutionary advantage in suppressing other transposable elements and viruses because of preexisting interactions with the machinery and transposable elements themselves. This is regarded as a selfish strategy but also the primary reason behind domestication. The question that remains is was function facilitated by domesticated or was this a function that already existed as the element arrived to the host.
+

@@ -1,0 +1,19 @@
+---
+title: "Spring Semester Goals"
+author: "Aarthi Bharathan"
+date: "2026-03-05"
+categories: [Weekly Goals]
+description: "March 1st Week"
+image: ""
+---
+
+# Overview
+
+Week of March 1st
+
+## March 5th Post
+
+### Computational Work
+
+Compressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today's lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space.  cd-hit was used to merge related sequences.
+
