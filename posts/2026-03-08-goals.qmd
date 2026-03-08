@@ -17,9 +17,3 @@ Week of March 1st
 
 Compressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today's lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space.  cd-hit was used to merge related sequences.
 
-
-### Next Steps
-
-- [ ] Task 1: Possibly 30% and 50%, but those require manipulating the word length
-- [ ] Task 2: Summary table with bar plots to visualize the distribution of gene families that have more than 70% and 90% identity matches
-- [ ] Task 3: Suggested file to gene family number; parse output from the DIAMOND database to get the information from teh table and make a text file with the gene family.
