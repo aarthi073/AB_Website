@@ -6,7 +6,7 @@ page-layout: full
 ::: {.hero-grid}
 
 ::: {.hero-text}
-#### Some area of interest
+#### Domesticated Transposase Genome Evolution in Eukaryotes
 
 :::
 <!-- 
@@ -23,7 +23,7 @@ page-layout: full
 ::: {.content-card}
 ## About Me
 
-Your info!
+I am an undergraduate student majoring in Computational and Applied Mathematics and Statistics in Mathematical Biology (CAMS) and Data Science at William & Mary (Class of 2028). My interests include computational biology/genomics, biotechnology, and molecular genetics. I love learning about new genetic mechanisms that contribute to therapeutics. I hope to apply my research in understanding the genome evolution of various features in eukaryotes using computational techniques such as machine learning to a biotechnological setting where these features are attributes of new medicines.
 
 Here you'll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
 :::
@@ -33,19 +33,19 @@ Here you'll find information about my research, outreach and education activitie
 ::: {.content-card}
 ## Contact
 
-##### Your Name
+##### Aarthi Bharathan
  
 
 ##### Email:  
-[username (at) wm.edu](mailto:username@wm.edu)  
+[abharathan01@wm.edu](mailto:abharathan01@wm.edu)  
 
 ##### Mailing Address:    
- 
+ CSU 5227 PO Box 8795, Williamsburg, VA, 23187-8795
 
 ---
 
 ### Find me online
 
-- [GitHub](Your Github link)  
+- [GitHub](https://github.com/aarthi073/AB_Website)  
 :::
 

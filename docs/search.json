@@ -4,14 +4,14 @@
     "href": "index.html#about-me",
     "title": "Aarthi Bharathan",
     "section": "About Me",
-    "text": "About Me\nYour info!\nHere you’ll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings."
+    "text": "About Me\nI am an undergraduate student majoring in Computational and Applied Mathematics and Statistics in Mathematical Biology (CAMS) and Data Science at William & Mary (Class of 2028). My interests include computational biology/genomics, biotechnology, and molecular genetics. I love learning about new genetic mechanisms that contribute to therapeutics. I hope to apply my research in understanding the genome evolution of various features in eukaryotes using computational techniques such as machine learning to a biotechnological setting where these features are attributes of new medicines.\nHere you’ll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings."
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
     "title": "Aarthi Bharathan",
     "section": "Contact",
-    "text": "Contact\n\nYour Name\n\n\nEmail:\nusername (at) wm.edu\n\n\nMailing Address:\n\n\n\nFind me online\n\nGitHub"
+    "text": "Contact\n\nAarthi Bharathan\n\n\nEmail:\nabharathan01@wm.edu\n\n\nMailing Address:\nCSU 5227 PO Box 8795, Williamsburg, VA, 23187-8795\n\n\n\nFind me online\n\nGitHub"
   },
   {
     "objectID": "posts/2026-02-18-goals.html",
@@ -40,5 +40,75 @@
     "title": "Lab Notebook",
     "section": "How to Explore This Notebook",
     "text": "How to Explore This Notebook\n\nSearch: Use the search box to find entries by keywords\nFilter by Category: Click on categories to filter entries by project or topic\nSort: Sort entries by date, title, or other criteria\nBrowse: Scroll through all entries in chronological order"
+  },
+  {
+    "objectID": "posts/2026-03-05-goals.html",
+    "href": "posts/2026-03-05-goals.html",
+    "title": "Week of March 1st Goals",
+    "section": "",
+    "text": "Week of March 1st\n\n\n\n\nCompressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today’s lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space. cd-hit was used to merge related sequences."
+  },
+  {
+    "objectID": "posts/2026-03-05-goals.html#march-5th-post",
+    "href": "posts/2026-03-05-goals.html#march-5th-post",
+    "title": "Week of March 1st Goals",
+    "section": "",
+    "text": "Compressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today’s lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space. cd-hit was used to merge related sequences."
+  },
+  {
+    "objectID": "posts/2026-02-18-goals - Copy.html",
+    "href": "posts/2026-02-18-goals - Copy.html",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Spring 2026 goals\n\n\n\n\n\nMethods\n\n\n\n\n\nMicroscopy\nCulturing\nSequencing: WGS, NGS, etc. are important skill that I want to grow at least by the end of my time in this lab ### Computational Work\nFinish BLAST (Transposase Project)\nStart HMMER (Transposase Project)\nMaybe start machine learning classifier model (Transposase Project)\nCell imaging\nIntroduction to AI models like alphafold, ESM-fold, etc. (how they work)\n\n\n\n\n\nSet up digital notebook\nRead about the relationship between DNA viruses and transposase domestication"
+  },
+  {
+    "objectID": "posts/2026-02-18-goals - Copy.html#goals",
+    "href": "posts/2026-02-18-goals - Copy.html#goals",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Methods\n\n\n\n\n\nMicroscopy\nCulturing\nSequencing: WGS, NGS, etc. are important skill that I want to grow at least by the end of my time in this lab ### Computational Work\nFinish BLAST (Transposase Project)\nStart HMMER (Transposase Project)\nMaybe start machine learning classifier model (Transposase Project)\nCell imaging\nIntroduction to AI models like alphafold, ESM-fold, etc. (how they work)\n\n\n\n\n\nSet up digital notebook\nRead about the relationship between DNA viruses and transposase domestication"
+  },
+  {
+    "objectID": "posts/2026-03-04-goals.html",
+    "href": "posts/2026-03-04-goals.html",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Week of March 1st\n\n\n\n\nI tried to make bar charts to visually see the distribution of the data and filter those with greater than 70% percent identity, but this was done without compressing the data.\nAdditionally, I read about domesticated transposases being an adaptation to evolutionary conflicts (Jangam et al.). The research paper emphasizes how transposable elements (TE) serve as defense mechanisms in both prokaryots and eukaryoets against invasive agents. There was an unconstrained evolution of DNA that led to their domestication. Overtime, these elements were disabled and integrated. Some resulting elements include retrotransposons and DNA transposable elements that use a cut and paste mechanism. Over time, long terminal repeats in retrotransposons led encoded GAG, POL, and ENV proteins. GAG is a capsid protein that encapsulates LTR mRNA into virus particles, ENV proteins are glycoproteins that promote virus particle escape, and POL proteins include integrase, RNAse, and RT. In short, transposases of various classes have been domesticated as an evolutionary advantage in suppressing other transposable elements and viruses because of preexisting interactions with the machinery and transposable elements themselves. This is regarded as a selfish strategy but also the primary reason behind domestication. The question that remains is was function facilitated by domesticated or was this a function that already existed as the element arrived to the host."
+  },
+  {
+    "objectID": "posts/2026-03-04-goals.html#march-4th-post",
+    "href": "posts/2026-03-04-goals.html#march-4th-post",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "I tried to make bar charts to visually see the distribution of the data and filter those with greater than 70% percent identity, but this was done without compressing the data.\nAdditionally, I read about domesticated transposases being an adaptation to evolutionary conflicts (Jangam et al.). The research paper emphasizes how transposable elements (TE) serve as defense mechanisms in both prokaryots and eukaryoets against invasive agents. There was an unconstrained evolution of DNA that led to their domestication. Overtime, these elements were disabled and integrated. Some resulting elements include retrotransposons and DNA transposable elements that use a cut and paste mechanism. Over time, long terminal repeats in retrotransposons led encoded GAG, POL, and ENV proteins. GAG is a capsid protein that encapsulates LTR mRNA into virus particles, ENV proteins are glycoproteins that promote virus particle escape, and POL proteins include integrase, RNAse, and RT. In short, transposases of various classes have been domesticated as an evolutionary advantage in suppressing other transposable elements and viruses because of preexisting interactions with the machinery and transposable elements themselves. This is regarded as a selfish strategy but also the primary reason behind domestication. The question that remains is was function facilitated by domesticated or was this a function that already existed as the element arrived to the host."
+  },
+  {
+    "objectID": "posts/2026-03-05-goals - Copy.html",
+    "href": "posts/2026-03-05-goals - Copy.html",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "Week of March 1st\n\n\n\n\nI tried to make bar charts to visually see the distribution of the data and filter those with greater than 70% percent identity, but this was done without compressing the data.\nAdditionally, I read about domesticated transposases being an adaptation to evolutionary conflicts (Jangam et al.). The research paper emphasizes how transposable elements (TE) serve as defense mechanisms in both prokaryots and eukaryoets against invasive agents. There was an unconstrained evolution of DNA that led to their domestication. Overtime, these elements were disabled and integrated. Some resulting elements include retrotransposons and DNA transposable elements that use a cut and paste mechanism. Over time, long terminal repeats in retrotransposons led encoded GAG, POL, and ENV proteins. GAG is a capsid protein that encapsulates LTR mRNA into virus particles, ENV proteins are glycoproteins that promote virus particle escape, and POL proteins include integrase, RNAse, and RT. In short, transposases of various classes have been domesticated as an evolutionary advantage in suppressing other transposable elements and viruses because of preexisting interactions with the machinery and transposable elements themselves. This is regarded as a selfish strategy but also the primary reason behind domestication. The question that remains is was function facilitated by domesticated or was this a function that already existed as the element arrived to the host."
+  },
+  {
+    "objectID": "posts/2026-03-05-goals - Copy.html#march-4th-post",
+    "href": "posts/2026-03-05-goals - Copy.html#march-4th-post",
+    "title": "Spring Semester Goals",
+    "section": "",
+    "text": "I tried to make bar charts to visually see the distribution of the data and filter those with greater than 70% percent identity, but this was done without compressing the data.\nAdditionally, I read about domesticated transposases being an adaptation to evolutionary conflicts (Jangam et al.). The research paper emphasizes how transposable elements (TE) serve as defense mechanisms in both prokaryots and eukaryoets against invasive agents. There was an unconstrained evolution of DNA that led to their domestication. Overtime, these elements were disabled and integrated. Some resulting elements include retrotransposons and DNA transposable elements that use a cut and paste mechanism. Over time, long terminal repeats in retrotransposons led encoded GAG, POL, and ENV proteins. GAG is a capsid protein that encapsulates LTR mRNA into virus particles, ENV proteins are glycoproteins that promote virus particle escape, and POL proteins include integrase, RNAse, and RT. In short, transposases of various classes have been domesticated as an evolutionary advantage in suppressing other transposable elements and viruses because of preexisting interactions with the machinery and transposable elements themselves. This is regarded as a selfish strategy but also the primary reason behind domestication. The question that remains is was function facilitated by domesticated or was this a function that already existed as the element arrived to the host."
+  },
+  {
+    "objectID": "posts/2026-03-08-goals.html",
+    "href": "posts/2026-03-08-goals.html",
+    "title": "Week of March 1st Goals",
+    "section": "",
+    "text": "Week of March 1st\n\n\n\n\nCompressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today’s lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space. cd-hit was used to merge related sequences."
+  },
+  {
+    "objectID": "posts/2026-03-08-goals.html#march-5th-post",
+    "href": "posts/2026-03-08-goals.html#march-5th-post",
+    "title": "Week of March 1st Goals",
+    "section": "",
+    "text": "Compressed the data into 70% and 90% identity matches to filter and identify distant relatives to the reference sequence that contribute to the diversity in the lineage. This was done in today’s lab meeting. We made a python script and a bash script to compress all the fasta files that were stored in the query_dir directory on the HPC scr10 space. cd-hit was used to merge related sequences."
   }
 ]
