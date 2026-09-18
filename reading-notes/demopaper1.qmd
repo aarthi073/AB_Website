@@ -1,9 +1,16 @@
 ---
 title: 'Demo paper title'
 author: Demo Author
-year: 2020
-projects: project-1
+year: 2025
+projects: my-project
+keywords: template
 ---
 
-{{< lipsum 1 >}}
+Put your annotated bibliography here!
 
+## Paper Summary
+
+## Key Points and Thoughts
+- some thought
+- another thought
+- interesting point

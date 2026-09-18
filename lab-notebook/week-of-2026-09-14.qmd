@@ -1,0 +1,27 @@
+---
+title: "Week of 2026-09-14"
+author: "Your Name"
+date: 2026-09-14
+projects: my-project
+---
+
+## Goals for the week
+Below is an example checklist!
+
+You can set some larger goals here, regardless of if you complete them or not!
+
+- [ ] Set up the lab notebook
+- [ ] Successfully make a first post
+- [ ] Update a post!
+- [ ] Make a post on how to render the notebook
+- [ ] Add a guide to "push" updates to GitHub
+
+## Monday
+
+## Tuesday
+
+## Wednesday
+
+## Thursday
+
+## Friday

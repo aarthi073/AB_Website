@@ -1,0 +1,11 @@
+---
+title: "Idea note 1"
+date: 2026-09-14
+projects: my-project
+---
+
+## Thoughts about project
+
+This project is exciting...
+
+I want to read more for this project...

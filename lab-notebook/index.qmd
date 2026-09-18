@@ -1,0 +1,51 @@
+---
+title: "Lab Notebook"
+format: html
+listing:
+  contents:
+    - "*.qmd"
+  type: table
+  fields: [date, title, projects, keywords]
+  filter-ui: [date, title, projects, keywords]
+---
+
+## Overview
+The `Lab Notebook` landing page is for you to curate and maintain any work you do
+in the lab, whether it be benchwork or computational. It is crucial that this remains
+up-to-date and is fantastic practice for generating and maintaining good documentation,
+which truthfully helps everyone in the lab (including yourself).
+
+Information on making new notes and editing them is below.
+
+---
+
+### Making new notes
+While the template for lab notebook entries are in a weekly format, feel free to
+change this as needed! Also, make sure to tag your entries with the appropriate
+project, which may mean that you have multiple weekly notes for different projects!
+
+This makes it easier to navigate and hunt useful information as needed! Creating
+and editing lab notes is (hopefully) fairly easy.
+
+Specifically, if a weekly lab notes file for the present week does not
+exist^[i.e., a file with the name `week-of-YYYY-MM-DD.qmd`, where `yyyy-mm-dd`
+is the year-month-date of the *Monday* of the current week], simply copy, paste
+(rename the file) and edit the template.
+
+Once created and renamed, the file automatically gets added to a table of all
+such files, which is accessible from the `Lab Notebook` and `Projects` landing pages
+of the website.
+
+Creating and editing lab notes will be demonstrated in the video below.
+
+:::{.callout-note collapse="true"}
+
+### Video instructions to create/edit weekly notes
+
+{{< video ../media/lab-notes-video.mp4 >}}
+
+:::
+
+---
+
+## Lab Notes

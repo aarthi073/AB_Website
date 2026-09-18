@@ -5,10 +5,42 @@ listing:
   contents:
     - "**meeting**.qmd"
   type: table
-  fields: [title, date, projects]
-  filter-ui: [title, date, projects]
+  fields: [title, date, projects, keywords]
+  filter-ui: [title, date, projects, keywords]
+---
+## Overview
+The `Meeting Notes` landing page is the place to find any notes from meetings with
+others in the lab. This makes it easy to track what the overarching goals were and
+to ensure that any "action items" do not end up lost or forgotten!
+
+Make sure to update this right after (or during) meetings! Additionally, this aids
+in improving accountability and is an easy spot to reference back to anything that
+was brought up that needs attention.
+
 ---
 
-New meeting note files can be made with `quartoutils::make_meeting_notes()`. 
-These files are saved into the `weekly-notes` subdirectory; or alternatively, they can be stored into a project subdirectory by passing the argument `project = ...` to the function. 
-Meetings associated with specific project tags are listed under the corresponding project landing pages, or can be viewed directly from the Meeting Notes landing page. 
+### Making a new "meeting note"
+
+Information on making new notes and editing them is below.
+
+Meeting note files are  **mostly** found in their corresponding `Project` folder.
+It is recommended to use prior `.qmd` files as the template, making sure to
+update the dates and entries inside the copied files!
+
+Meetings associated with specific project tags are listed under the corresponding
+`Projects` landing pages, or can be viewed directly from the `Meeting Notes` landing page.
+
+For meetings **not** connected with a project, simply copy, paste, and edit the existing
+template in the `Meeting Notes` folder.
+
+Creating and editing meeting notes will be demonstrated in the video below.
+
+:::{.callout-note collapse="true"}
+
+### Video instructions to create/edit weekly notes
+
+{{< video ../media/meeting-notes-video.mp4 >}}
+
+:::
+
+---

@@ -1,0 +1,24 @@
+---
+title: "Meeting Title"
+attendees: Person 1, Person 2
+date: 2026-09-15
+projects: my-project
+keywords: template
+---
+
+## Meeting goals
+
+Summarize the goals of the meeting...
+
+Can replace "Meeting goals" with "Meeting summary"
+
+## Meeting take aways and next steps
+
+Always a good idea to describe or list the big things you took with you after meeting.
+
+Also recommended to leave some ideas of broad next steps too.
+
+## Action items
+
+- [ ] Task 1
+- [ ] Task 2
