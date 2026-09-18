@@ -14,6 +14,48 @@
     "text": "The Reading Notes landing page is for you to curate and maintain any articles, manuals, or media that is related in any way to your research. Ideally, this should be treated like an annotated bibliography. To make the most of this, make sure to include useful keywords and link to any relevant projects (when possible).\nInformation on making new notes and editing them is below.\n\n\n\nTo make a new reading note, simply make a copy the existing template and update the contents.\nThe file also automatically gets added to a table of all such files, which is accessible from the Reading Notes landing page of the website.\nThis file is also added to the Reading Notes section of each Project landing page.\nCreating and editing reading notes will be demonstrated in the video below – when Xyrus has the time!\n\n\n\n\n\n\nNoteVideo instructions to create and edit reading notes"
   },
   {
+    "objectID": "projects/my-project/meeting-notes/meeting-1.html",
+    "href": "projects/my-project/meeting-notes/meeting-1.html",
+    "title": "Meeting Title",
+    "section": "",
+    "text": "Summarize the goals of the meeting…\nCan replace “Meeting goals” with “Meeting summary”"
+  },
+  {
+    "objectID": "projects/my-project/meeting-notes/meeting-1.html#meeting-goals",
+    "href": "projects/my-project/meeting-notes/meeting-1.html#meeting-goals",
+    "title": "Meeting Title",
+    "section": "",
+    "text": "Summarize the goals of the meeting…\nCan replace “Meeting goals” with “Meeting summary”"
+  },
+  {
+    "objectID": "projects/my-project/meeting-notes/meeting-1.html#meeting-take-aways-and-next-steps",
+    "href": "projects/my-project/meeting-notes/meeting-1.html#meeting-take-aways-and-next-steps",
+    "title": "Meeting Title",
+    "section": "Meeting take aways and next steps",
+    "text": "Meeting take aways and next steps\nAlways a good idea to describe or list the big things you took with you after meeting.\nAlso recommended to leave some ideas of broad next steps too."
+  },
+  {
+    "objectID": "projects/my-project/meeting-notes/meeting-1.html#action-items",
+    "href": "projects/my-project/meeting-notes/meeting-1.html#action-items",
+    "title": "Meeting Title",
+    "section": "Action items",
+    "text": "Action items\n\nTask 1\nTask 2"
+  },
+  {
+    "objectID": "projects/my-project/idea-note1.html",
+    "href": "projects/my-project/idea-note1.html",
+    "title": "Idea note 1",
+    "section": "",
+    "text": "This project is exciting…\nI want to read more for this project…"
+  },
+  {
+    "objectID": "projects/my-project/idea-note1.html#thoughts-about-project",
+    "href": "projects/my-project/idea-note1.html#thoughts-about-project",
+    "title": "Idea note 1",
+    "section": "",
+    "text": "This project is exciting…\nI want to read more for this project…"
+  },
+  {
     "objectID": "lab-notebook/week-of-2026-09-14.html",
     "href": "lab-notebook/week-of-2026-09-14.html",
     "title": "Week of 2026-09-14",
@@ -63,6 +105,48 @@
     "text": "Friday"
   },
   {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "YOUR-NAME",
+    "section": "About Me",
+    "text": "About Me\nYour info!\nHere you’ll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "YOUR-NAME",
+    "section": "Contact",
+    "text": "Contact\n\nYOUR-NAME\n\n\nEmail:\nyour-wm-username (at) wm.edu\n\n\nMailing Address:\n\n\n\nFind me online\n\nGitHub"
+  },
+  {
+    "objectID": "lab-notebook/index.html",
+    "href": "lab-notebook/index.html",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "The Lab Notebook landing page is for you to curate and maintain any work you do in the lab, whether it be benchwork or computational. It is crucial that this remains up-to-date and is fantastic practice for generating and maintaining good documentation, which truthfully helps everyone in the lab (including yourself).\nInformation on making new notes and editing them is below.\n\n\n\nWhile the template for lab notebook entries are in a weekly format, feel free to change this as needed! Also, make sure to tag your entries with the appropriate project, which may mean that you have multiple weekly notes for different projects!\nThis makes it easier to navigate and hunt useful information as needed! Creating and editing lab notes is (hopefully) fairly easy.\nSpecifically, if a weekly lab notes file for the present week does not exist1, simply copy, paste (rename the file) and edit the template.\nOnce created and renamed, the file automatically gets added to a table of all such files, which is accessible from the Lab Notebook and Projects landing pages of the website.\nCreating and editing lab notes will be demonstrated in the video below.\n\n\n\n\n\n\nNoteVideo instructions to create/edit weekly notes"
+  },
+  {
+    "objectID": "lab-notebook/index.html#overview",
+    "href": "lab-notebook/index.html#overview",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "The Lab Notebook landing page is for you to curate and maintain any work you do in the lab, whether it be benchwork or computational. It is crucial that this remains up-to-date and is fantastic practice for generating and maintaining good documentation, which truthfully helps everyone in the lab (including yourself).\nInformation on making new notes and editing them is below.\n\n\n\nWhile the template for lab notebook entries are in a weekly format, feel free to change this as needed! Also, make sure to tag your entries with the appropriate project, which may mean that you have multiple weekly notes for different projects!\nThis makes it easier to navigate and hunt useful information as needed! Creating and editing lab notes is (hopefully) fairly easy.\nSpecifically, if a weekly lab notes file for the present week does not exist1, simply copy, paste (rename the file) and edit the template.\nOnce created and renamed, the file automatically gets added to a table of all such files, which is accessible from the Lab Notebook and Projects landing pages of the website.\nCreating and editing lab notes will be demonstrated in the video below.\n\n\n\n\n\n\nNoteVideo instructions to create/edit weekly notes"
+  },
+  {
+    "objectID": "lab-notebook/index.html#lab-notes",
+    "href": "lab-notebook/index.html#lab-notes",
+    "title": "Lab Notebook",
+    "section": "Lab Notes",
+    "text": "Lab Notes"
+  },
+  {
+    "objectID": "lab-notebook/index.html#footnotes",
+    "href": "lab-notebook/index.html#footnotes",
+    "title": "Lab Notebook",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ni.e., a file with the name week-of-YYYY-MM-DD.qmd, where yyyy-mm-dd is the year-month-date of the Monday of the current week↩︎"
+  },
+  {
     "objectID": "meetings.html",
     "href": "meetings.html",
     "title": "Meeting notes",
@@ -75,34 +159,6 @@
     "title": "Meeting notes",
     "section": "",
     "text": "The Meeting Notes landing page is the place to find any notes from meetings with others in the lab. This makes it easy to track what the overarching goals were and to ensure that any “action items” do not end up lost or forgotten!\nMake sure to update this right after (or during) meetings! Additionally, this aids in improving accountability and is an easy spot to reference back to anything that was brought up that needs attention.\n\n\n\nInformation on making new notes and editing them is below.\nMeeting note files are mostly found in their corresponding Project folder. It is recommended to use prior .qmd files as the template, making sure to update the dates and entries inside the copied files!\nMeetings associated with specific project tags are listed under the corresponding Projects landing pages, or can be viewed directly from the Meeting Notes landing page.\nFor meetings not connected with a project, simply copy, paste, and edit the existing template in the Meeting Notes folder.\nCreating and editing meeting notes will be demonstrated in the video below.\n\n\n\n\n\n\nNoteVideo instructions to create/edit weekly notes"
-  },
-  {
-    "objectID": "projects/my-project/meeting-notes/meeting-1.html",
-    "href": "projects/my-project/meeting-notes/meeting-1.html",
-    "title": "Meeting Title",
-    "section": "",
-    "text": "Summarize the goals of the meeting…\nCan replace “Meeting goals” with “Meeting summary”"
-  },
-  {
-    "objectID": "projects/my-project/meeting-notes/meeting-1.html#meeting-goals",
-    "href": "projects/my-project/meeting-notes/meeting-1.html#meeting-goals",
-    "title": "Meeting Title",
-    "section": "",
-    "text": "Summarize the goals of the meeting…\nCan replace “Meeting goals” with “Meeting summary”"
-  },
-  {
-    "objectID": "projects/my-project/meeting-notes/meeting-1.html#meeting-take-aways-and-next-steps",
-    "href": "projects/my-project/meeting-notes/meeting-1.html#meeting-take-aways-and-next-steps",
-    "title": "Meeting Title",
-    "section": "Meeting take aways and next steps",
-    "text": "Meeting take aways and next steps\nAlways a good idea to describe or list the big things you took with you after meeting.\nAlso recommended to leave some ideas of broad next steps too."
-  },
-  {
-    "objectID": "projects/my-project/meeting-notes/meeting-1.html#action-items",
-    "href": "projects/my-project/meeting-notes/meeting-1.html#action-items",
-    "title": "Meeting Title",
-    "section": "Action items",
-    "text": "Action items\n\nTask 1\nTask 2"
   },
   {
     "objectID": "projects/my-project/index.html",
@@ -145,55 +201,6 @@
     "title": "my-project",
     "section": "Meeting notes",
     "text": "Meeting notes\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nattendees\n\n\n\n\n\n\n\n\nSep 15, 2026\n\n\nMeeting Title\n\n\nPerson 1, Person 2\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/my-project/idea-note1.html",
-    "href": "projects/my-project/idea-note1.html",
-    "title": "Idea note 1",
-    "section": "",
-    "text": "This project is exciting…\nI want to read more for this project…"
-  },
-  {
-    "objectID": "projects/my-project/idea-note1.html#thoughts-about-project",
-    "href": "projects/my-project/idea-note1.html#thoughts-about-project",
-    "title": "Idea note 1",
-    "section": "",
-    "text": "This project is exciting…\nI want to read more for this project…"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "YOUR-NAME",
-    "section": "About Me",
-    "text": "About Me\nYour info!\nHere you’ll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "YOUR-NAME",
-    "section": "Contact",
-    "text": "Contact\n\nYOUR-NAME\n\n\nEmail:\nyour-wm-username (at) wm.edu\n\n\nMailing Address:\n\n\n\nFind me online\n\nGitHub"
-  },
-  {
-    "objectID": "lab-notebook/index.html",
-    "href": "lab-notebook/index.html",
-    "title": "Lab Notebook",
-    "section": "",
-    "text": "The Lab Notebook landing page is for you to curate and maintain any work you do in the lab, whether it be benchwork or computational. It is crucial that this remains up-to-date and is fantastic practice for generating and maintaining good documentation, which truthfully helps everyone in the lab (including yourself).\nInformation on making new notes and editing them is below.\n\n\n\nWhile the template for lab notebook entries are in a weekly format, feel free to change this as needed! Also, make sure to tag your entries with the appropriate project, which may mean that you have multiple weekly notes for different projects!\nThis makes it easier to navigate and hunt useful information as needed! Creating and editing lab notes is (hopefully) fairly easy.\nSpecifically, if a weekly notes file for the present week does not exist1, simply copy, paste (rename the file) and edit the template.\nOnce created and renamed, the file automatically gets added to a table of all such files, which is accessible from the Lab Notebook and Projects landing pages of the website.\nCreating and editing lab notes will be demonstrated in the video below.\n\n\n\n\n\n\nNoteVideo instructions to create/edit weekly notes"
-  },
-  {
-    "objectID": "lab-notebook/index.html#overview",
-    "href": "lab-notebook/index.html#overview",
-    "title": "Lab Notebook",
-    "section": "",
-    "text": "The Lab Notebook landing page is for you to curate and maintain any work you do in the lab, whether it be benchwork or computational. It is crucial that this remains up-to-date and is fantastic practice for generating and maintaining good documentation, which truthfully helps everyone in the lab (including yourself).\nInformation on making new notes and editing them is below.\n\n\n\nWhile the template for lab notebook entries are in a weekly format, feel free to change this as needed! Also, make sure to tag your entries with the appropriate project, which may mean that you have multiple weekly notes for different projects!\nThis makes it easier to navigate and hunt useful information as needed! Creating and editing lab notes is (hopefully) fairly easy.\nSpecifically, if a weekly notes file for the present week does not exist1, simply copy, paste (rename the file) and edit the template.\nOnce created and renamed, the file automatically gets added to a table of all such files, which is accessible from the Lab Notebook and Projects landing pages of the website.\nCreating and editing lab notes will be demonstrated in the video below.\n\n\n\n\n\n\nNoteVideo instructions to create/edit weekly notes"
-  },
-  {
-    "objectID": "lab-notebook/index.html#footnotes",
-    "href": "lab-notebook/index.html#footnotes",
-    "title": "Lab Notebook",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\ni.e., a file with the name week-of-YYYY-MM-DD.qmd, where yyyy-mm-dd is the year-month-date of the Monday of the current week↩︎"
   },
   {
     "objectID": "reading-notes/demopaper1.html",

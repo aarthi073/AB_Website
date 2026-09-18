@@ -6,6 +6,12 @@
     ]
   },
   {
+    "listing": "/lab-notebook/index.html",
+    "items": [
+      "/lab-notebook/week-of-2026-09-14.html"
+    ]
+  },
+  {
     "listing": "/meetings.html",
     "items": [
       "/projects/my-project/meeting-notes/meeting-1.html"
@@ -17,12 +23,6 @@
       "/projects/my-project/meeting-notes/meeting-1.html",
       "/reading-notes/demopaper1.html",
       "/projects/my-project/idea-note1.html",
-      "/lab-notebook/week-of-2026-09-14.html"
-    ]
-  },
-  {
-    "listing": "/lab-notebook/index.html",
-    "items": [
       "/lab-notebook/week-of-2026-09-14.html"
     ]
   }
